@@ -1,0 +1,183 @@
+main{
+   
+    display: block;
+ 
+ 
+    
+}
+.one{
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+}
+
+
+header{
+    background-color: rgb(83, 25, 138);
+    align-items: center;
+    color: white; 
+    max-width: 100%;
+    
+}
+
+h1{
+    font-size: 50px;
+    font-family: 'Roboto Serif', serif;
+    
+}
+
+
+p{
+    font-size: 20px;
+    
+   
+}
+
+.subheading{
+    color: rgb(224, 194, 253);
+    display: block;
+    font-size: 30px;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+}
+.flex-container{
+    flex-direction: column;
+    justify-content:center;
+   margin-left: auto;
+   margin-right: auto;
+    align-items: center;
+    
+   
+    
+  
+}
+.container{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin: auto;
+    justify-content:space-between;
+    width: 100%;
+    max-width: 1300px;
+    padding: 30px;
+  
+   
+   
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+   
+    
+}
+li{
+    display: inline;
+    padding: 16px;
+    margin: 20px;
+    
+  
+
+}
+
+li a{
+    color:white ;
+    font-size: 32px;
+    align-items: center;
+}
+li a:hover{
+   color: brown;
+}
+    .section-two{
+    background-color: rgb(83, 25, 138);
+    background-size:cover;
+   
+}
+
+.section-two img{
+    height: 600px;
+    width: 600px;
+
+}
+.part-two{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    justify-content: center;
+    margin: 0 auto;
+}
+.section-two button{
+    height: 50px;
+    width: 140px;
+    border-radius: 8px;
+    border: none;
+    color: rgb(102, 34, 157);
+    font-size: 20px;
+    display: inline-block;
+    
+  
+}
+.two{
+    display: flex;
+    flex-direction: column;
+    margin-top: 110px;
+}
+h2{
+    font-size: 40px;
+    color: rgb(89, 32, 143);
+}
+h3{
+    font-size: 30px;
+}
+section p{
+    font-size: 27px;
+    
+}
+section button{
+    height: 50px;
+    width: 140px;
+    border-radius: 8px;
+    border: none;
+    font-size: 20px;
+}
+.section-one{
+    padding: 40px;
+   margin: 0 200px;
+   
+}
+footer{
+    text-align: center;
+    font-size: 5px;
+}
+.section-two p{
+    color: white;
+    font-size: 27px;
+    
+}
+.section-two h2{
+    color: white;
+    font-size: 40px;
+    
+}
+.onee{
+        background-color: white;
+      
+}
+.twoo{
+    background-color: rgb(220, 201, 237);
+  
+}
+.first{
+    background-color: rgb(115, 32, 193);
+    color: white;
+}
+.second{
+    background-color: rgb(239, 222, 254);
+    color: rgb(91, 23, 154);
+}
+.section-two button:hover{
+    background-color: rgba(249, 221, 58, 0.776);
+ }
+.section-one button:hover{
+   background-color: rgba(249, 221, 58, 0.776);
+}
